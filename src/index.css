@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: Montserrat, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1,h2,h3 {
+  font-family: MartelSans-ExtraBold,Arial,Helvetica,sans-serif;
+  margin: 10px;
+  line-height: 1.5;
+}
+
+h4,h5,h6 {
+  font-family: MartelSans-Bold,Arial,Helvetica,sans-serif;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'MartelSans';
+  src: local('MartelSans'), url(./fonts/MartelSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'MartelSans-Light';
+  src: local('MartelSans-Light'), url(./fonts/MartelSans-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'MartelSans-SemiBold';
+  src: local('MartelSans-SemiBold'), url(./fonts/MartelSans-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'MartelSans-Bold';
+  src: local('MartelSans-Bold'), url(./fonts/MartelSans-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'MartelSans-ExtraBold';
+  src: local('MartelSans-ExtraBold'), url(./fonts/MartelSans-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'MartelSans-Black';
+  src: local('MartelSans-Black'), url(./fonts/MartelSans-Black.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(./fonts/Montserrat-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: local('Montserrat-Bold'), url(./fonts/Montserrat-Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: local('Montserrat-SemiBold'), url(./fonts/Montserrat-SemiBold.otf) format('opentype');
+}
+
+/*
+--body-font: canada-type-gibson,Arial,Helvetica,sans-serif; // Montserrat
+--heading-font: apertura,Arial,Helvetica,sans-serif; // Martel Sans
+--special-font: input-sans,monospace; // source-code-pro
+*/

@@ -1,0 +1,49 @@
+@import '../../../utils/variables';
+
+.page-banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 80px 200px 80px 140px;
+
+  color: $white;
+  background-color: $midnight;
+  a {
+    color: $white;
+  }
+
+  &.inverted {
+    color: $midnight;
+    background-color: $white;
+    padding: 80px 200px 0 140px;
+    a {
+      color: $midnight;
+    }
+  }
+
+  h1 {
+    font-size: 2.6em;
+    font-family: MartelSans-Black;
+  }
+
+  .orange {
+    color: $orange;
+
+    &:hover {
+      color: darken($orange, 10%);
+    }
+  }
+
+  .primary {
+    color: $midnight;
+  }
+  .secondary {
+    color: $lavender;
+  }
+  .accent {
+    color: $twilight;
+  }
+  .tertiary {
+    color: $iris;
+  }
+}

@@ -1,0 +1,47 @@
+@import '../../../utils/variables';
+
+.page-header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+
+  color: $white;
+  background-color: $midnight;
+  a {
+    color: $white;
+  }
+
+  &.inverted {
+    color: $midnight;
+    background-color: $white;
+    a {
+      color: $midnight;
+    }
+  }
+
+  h2 {
+    font-size: 2.2em;
+    font-family: MartelSans-Black;
+    cursor: pointer;
+  }
+
+  .orange {
+    color: $orange;
+  }
+
+  .menu {
+    a {
+      cursor: pointer;
+      font-size: medium;
+      font-family: MartelSans-ExtraBold;
+      margin: 0 30px;
+
+      &:hover {
+        color: $orange;
+      }
+    }
+  }
+}
