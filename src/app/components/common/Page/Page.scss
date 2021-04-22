@@ -44,6 +44,9 @@ main {
         color: $white;
       }
     }
+    &.content-container {
+      margin-bottom: 40px;
+    }
   }
 
   code {

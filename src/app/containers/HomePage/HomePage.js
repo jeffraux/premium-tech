@@ -47,7 +47,7 @@ class HomePage extends React.Component {
             </article>
             <Image className="right" src={engineering2} alt="engineering 2" width={500} />
           </div>
-          <div className="content-container">
+          <div>
             <Image className="left" src={premium} alt="engineering" width={400} />
             <article>
               <code>SUPERIOR QUALITY</code>
@@ -56,7 +56,7 @@ class HomePage extends React.Component {
               </h1>
             </article>
           </div>
-          <div className="content-container inverted">
+          <div className="inverted">
             <article>
               <code>recent work</code>
               <h1>
